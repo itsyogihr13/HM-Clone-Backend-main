@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device, initial-scale=1.0" />
+    <title>H&M SignUp</title>
+    <link rel="icon" href="https://tse2.mm.bing.net/th?id=OIP.tIpRgOXKcINGu9VwvaNkBwAAAA&pid=Api&P=0&w=300&h=300">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="css/signUp.css">
+  </head>
+  <body>    
+    
+    <div id="container">
+        <div id="first">
+          <h1 style="font-size: 25px">Become a member</h1>
+          <p>
+            Become a member - don't miss out on deals, offers, discounts and bonus
+            vouchers.
+          </p>
+        </div>
+        <div id="second">
+          <div class="toflex">
+            <p>Email</p>
+            <p style="color: red">*</p>
+          </div>
+          <input id ="email" type="text" />
+          <div class="toflex">
+            <p>Create a password</p>
+            <p style="color: red">*</p>
+          </div>
+          <input id = "password" type="text" />
+          <div class="toflex">
+            <p>Date of birth</p>
+            <p style="color: red">*</p>
+          </div>
+          <input id = "date" type="text"  placeholder="   DD / MM / YYYY"/>
+        </div>
+        <p id="info">H&M wants to give you a spcial treat on your birthday</p>
+        <div id ="third">
+            <div id = "gap" onclick="getMoreData()">
+                <p>ADD MORE & GET MORE</p>
+                <i class="fas fa-plus" id ="add"></i>
+            </div>
+            <div id = "toDis">
+                <div id = "disContent">
+                    <p>Did you know that if you add some more information below  you will earn points and get a more personalized experiance? How great is that?</p>
+                    <div class = "one">
+                        <p>First name</p>
+                        <input id = "name" type="text">
+                        <p>Last name</p>
+                        <input id = "lastName" type="text">
+                        <p>Gender</p>
+                        <select name="" id="gender">
+                            <option value="Select a Gender">  Seleact a Gender</option>
+                            <option value="Male">Male</option>
+                            <option value="Female">Female</option>
+                        </select>
+                        <p>Pincode</p>
+                        <input id="pincode" type="text">
+                    </div>
+            </div>
+        </div>
+        <div id = "checkBox">
+            <input id = "toCheck" type="checkbox">
+            <div id = "passage">
+                <p style ="text-align: justify;">Yes, email me offers, styles updates, and special invites to sale and events.</p>
+                <p style ="text-align: justify;">Wish your inbox was more stylish? No problem,just subscribe to our newsletter.Find out what's hot and happening in the world of fashion, beauty,and home decor. Plus, you'will get bonus vouchers, birthday offers, and special invites to sales and events - striaght to your inbox!</p>
+            </div>
+        </div>
+        <p style="color:gray; font-size:10px">By clicking 'Become a member',I agree to the H&M Membership <u>Terms and conditions.</u></p>
+        <p style="color:gray; font-size:10px">To give you the full membership experiance, we will process your personal data in accordance with thee H&M's <u>Privacy Notice</u></p>
+        <div id = "mem">
+            <button onclick="member()" id = "become">Become a member</button><br>
+            <a href="/signIn" style="color: black;"><p>Back to sign in</p></a>
+        </div>
+      </div>
+
+  </body>
+</html>
+<script src = "js/signUp.js">
+// let count = 0;
+// function getMoreData()
+// {
+//       count++;
+//       if(count%2 == 1)
+//       {
+//           document.getElementById("disContent").style.display ="block"
+//       }
+//       else {
+//         document.getElementById("disContent").style.display ="none"
+//       }
+//     //  document.getElementById("disContent").style.display ="none"
+//   }
+
+//   var userData = JSON.parse(localStorage.getItem("data")) || [];
+
+// function member(){
+//     // console.log("account created")
+
+//     var name = document.getElementById("name").value;
+//     var email = document.getElementById("email").value;
+//     var pass = document.getElementById("password").value;
+//     var lastName = document.getElementById("lastName").value;
+//     var date = document.getElementById("date").value;
+
+//     if(date ==="" || email === "" || pass ===""){
+//         var bag = "empty";
+
+//         alert("Please fill the Details")
+//     }
+//     else {
+//         alert("Account Created Successfully")
+//     }
+
+//     var users = {
+//         name : name,
+//         email: email,
+//         password :pass,
+//     };
+
+//     if(bag !== "empty")
+//     {
+//         userData.push(users);
+//         console.log(userData);
+
+//         localStorage.setItem("data",JSON.stringify(userData));
+//         // alert("Account Created Successfully");
+//         window.location.href = "signIn.html";
+//     }
+
+// }
+</script>

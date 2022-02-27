@@ -1,0 +1,175 @@
+body {
+    background-color: #faf9f8;
+  }
+    #upper {
+      border: 1px solid transparent;
+      width: 100%;
+      height: 800px;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-size: 1550px 800px;
+      background-image: url("https://www2.hm.com/content/dam/sustainability-site/startpage/9501-CPD-01_4x5-sustainability-destination.jpg");
+    }
+    #sus {
+      font-size: 65px;
+      text-align: center;
+      margin-top: 400px;
+      font-weight: bolder;
+      color: white;
+    }
+    #leftpart {
+      /* border: 1px solid teal; */
+      width: 270px;
+      margin-left: 40px;
+    }
+    #leftpart > p {
+      line-height: 0.7;
+      font-size: 15px;
+    }
+    #leftpart > p:hover {
+      color: #e50010;
+      text-decoration: underline;
+    }
+    #grid1 {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 30px;
+      height: 400px;
+      margin-left: 50px;
+      margin-top: 40px;
+      /* border: 1px solid red; */
+    }
+    #grid1 > div {
+      /* border: 1px solid teal; */
+      width: 310px;
+    }
+
+    #grid2  {
+      /* border: 1px solid teal; */
+        border: 1px solid transparent;
+      height: 600px;
+      margin-top: 30px;
+      margin-left: 50px;
+    }
+    #conta {
+      display: flex;
+      margin-top: 45px;
+    }
+    #image1 {
+border: 1px solid transparent;
+      margin-left: 50px;
+      height: 700px;
+      width: 1000px;
+    }
+    #dropbox {
+    border: 1px solid transparent;
+      background-color: #e4e0dc;
+      height: 150px;
+      width: 90%;
+      margin: auto;
+      margin-top: 30px;
+      text-align: center;
+    } 
+     #grid3 {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+     grid-gap: 30px;
+      height: 450px;
+      margin-left: 50px;
+      margin-top: 40px;
+      /* border: 1px solid red; */
+    }
+    #grid3 > div {
+border: 1px solid transparent;
+    }
+     #drop {
+    text-align: center;
+    margin-top: 100px;
+  }
+  #image1{
+      background-image: url("https://lp2.hm.com/hmgoepprod?source=url[https://www2.hm.com/content/dam/sustainability-site/the-latest/january-2022/8104/8104_220_Member_ConsciousPoints_Divided_16x9-sustainability.jpg]&scale=size[1200]&sink=format[jpeg],quality[80]");
+  }
+  #img1{
+       background-size: contain;
+       background-repeat: no-repeat;
+       background-image: url("https://lp2.hm.com/hmgoepprod?source=url[https://www2.hm.com/content/dam/sustainability-site/lets-change/9501-CPD-02_4x5-lets-change.jpg]&scale=size[456]&sink=format[jpeg],quality[80]");
+
+  }
+
+  #img2{
+       background-size: 500px 700px;
+      background-size: contain;
+    background-repeat: no-repeat;
+      background-image: url("https://lp2.hm.com/hmgoepprod?source=url[https://www2.hm.com/content/dam/sustainability-site/lets-close-the-loop/9501-CPD-03_4x5-lets-close-the-loop.jpg]&scale=size[456]&sink=format[jpeg],quality[80]");
+  }
+   #img3{
+      background-size: contain;
+    background-repeat: no-repeat;
+background-image: url("https://lp2.hm.com/hmgoepprod?source=url[https://www2.hm.com/content/dam/sustainability-site/lets-innovate/9501-CPD-04_4x5-lets-innovate.jpg]&scale=size[456]&sink=format[jpeg],quality[80]");    }
+#img4{
+   background-image: url("https://lp2.hm.com/hmgoepprod?source=url[https://www2.hm.com/content/dam/sustainability-site/lets-innovate/9501-CPD-04_4x5-lets-innovate.jpg]&scale=size[456]&sink=format[jpeg],quality[80]");
+}
+  #grid2{
+      background-size: contain;
+    background-repeat: no-repeat;
+      background-image: url("https://lp2.hm.com/hmgoepprod?source=url[https://www2.hm.com/content/dam/sustainability-site/the-latest/december-2021/4005a/4005A-16x9-sustainability-meet-bottle2fashion.jpg]&scale=size[1200]&sink=format[jpeg],quality[80]");
+  } 
+  #img6{
+      background-size: contain;
+    background-repeat: no-repeat;
+      background-image: url("https://lp2.hm.com/hmgoepprod?source=url[https://www2.hm.com/content/dam/sustainability-site/lets-be-fair/9501-CPD-05_4x5-lets-be-fair.jpg]&scale=size[456]&sink=format[jpeg],quality[80]");
+  } 
+  #img7{
+      background-size: contain;
+    background-repeat: no-repeat;
+      background-image: url("https://lp2.hm.com/hmgoepprod?source=url[https://www2.hm.com/content/dam/sustainability-site/lets-be-for-all/9501-CPD-06_4x5-lets-be-for-all.jpg]&scale=size[456]&sink=format[jpeg],quality[80]");
+  } 
+  #img8{
+      background-size: contain;
+    background-repeat: no-repeat;
+      background-image: url("https://lp2.hm.com/hmgoepprod?source=url[https://www2.hm.com/content/dam/sustainability-site/lets-be-transparent/9501-CPD-07_4x5-lets-be-transparent.jpg]&scale=size[456]&sink=format[jpeg],quality[80]");
+  } 
+  #img9{
+      background-size: contain;
+    background-repeat: no-repeat;
+      background-image: url("https://lp2.hm.com/hmgoepprod?source=url[https://www2.hm.com/content/dam/sustainability-site/lets-clean-up/9501-CPD-08_1x1-lets-clean-up.jpg]&scale=size[562]&sink=format[jpeg],quality[80]");
+  } 
+   #img10{
+      background-size: contain;
+    background-repeat: no-repeat;
+      background-image: url("https://lp2.hm.com/hmgoepprod?source=url[https://www2.hm.com/content/dam/sustainability-site/startpage/9501-CPD-take_care_1x1.jpg]&scale=size[562]&sink=format[jpeg],quality[80]");
+  }
+  #fontone{
+    border: 1px solid transparent;
+      /* color: white; */
+      margin-top: 620px;  padding: 0 20px;
+      background-color: #ffffff;
+      width: 650px;
+      margin-left: 25px;
+
+  }
+  #fonttwo{
+border: 1px solid transparent;
+      margin-top: 290px;
+      background-color: #ffffff;
+      width: 230px;  padding: 0 20px;
+      margin-left: 20px;
+
+  }   #fontthree{
+border: 1px solid transparent;
+      margin-top: 480px;
+      padding: 0 20px;
+      background-color: #ffffff;
+      width: 550px;
+      margin-left: 20px;
+
+  }
+  #fontfour{
+border: 1px solid transparent;
+ margin: auto;
+      margin-top: 400px;
+      padding: 0 20px;
+      background-color: #ffffff;
+   width: 400px;
+      margin-left: 20px;
+  }

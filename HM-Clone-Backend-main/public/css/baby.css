@@ -1,0 +1,88 @@
+body {
+    background-color: #faf9f8;
+  }
+  #babycont {
+    display: flex;
+    /* border: 1px solid black; */
+  }
+  #leftmen {
+    /* border: 1px solid red; */
+    height: 500px;
+    width: 250px;
+    margin-left: 40px;
+  }
+
+  #rightmen {
+    /* border: 1px solid red; */
+    /* height: 900px; */
+    width: 1000px;
+  }
+
+  #image {
+    display: flex;
+    /* border: 1px solid blue; */
+    height: 720px;
+    /* width: 750px; */
+  }
+  #image1 {
+    background-image: url("https://lp2.hm.com/hmgoepprod?set=source[/e1/bc/e1bcfa8b6ba0208f1c27fa95fe5753eec3fc1e1e.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[y],hmver[2]&call=url[file:/product/main]");
+
+    width: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 500px 700px;
+  }
+  #image2 {
+    background-image: url("https://www2.hm.com/content/dam/kids_s05/january_2022/4025w/4025W-1x1-online-deal-for-baby.jpg");
+    width: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 500px 700px;
+  }
+  #row2 {
+    /* display: flex; */
+    background-image: url("https://www2.hm.com/content/dam/hm/TOOLBOX/Local%20Activities/2021_s03/september/TCK9042-w8-KIDS-SGI-1x1.jpg");
+    border: 1px solid transparent;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 1000px 700px;
+    height: 700px;
+    /* width: 750px; */
+  }
+
+  #font {
+    /* margin-left: 300px; */
+    height: 250px;
+    /* width: 350px; */
+    text-align: center;
+    /* color: white; */
+    margin-top: 540px;
+
+    font-weight: bold;
+    line-height: 0.1;
+  }
+  #btn {
+    background-color: white;
+    font-weight: 700;
+    width: 80px;
+    padding: 5px;
+    border: none;
+  }
+  #font2 {
+    /* border: 1px solid black; */
+    color: white;
+    text-align: center;
+    margin-top: 520px;
+    margin-left: 15px;
+    font-weight: bold;
+    line-height: 0.2;
+  }
+
+  #leftmen > p {
+    line-height: 0.7;
+    font-size: 15px;
+  }
+  #leftmen > p:hover {
+    color: #e50010;
+    text-decoration: underline;
+  }

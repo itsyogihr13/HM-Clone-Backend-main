@@ -1,0 +1,89 @@
+* {
+    font-family: "HM Sans Regular", "Hiragino Kaku Gothic Pro", Osaka,
+      sans-serif;
+    font-size: 0.9135rem;
+  }
+  #container {
+    border: 2px solid black;
+    width: 30%;
+    margin: auto;
+    margin-top: 100px;
+    padding: 30px;
+  }
+  #first {
+    /* border: 1px solid red; */
+    width: 100%;
+    margin: auto;
+    text-align: center;
+  }
+  #second {
+    /* border:1px solid blue; */
+    width: 100%;
+    margin: auto;
+    margin-top: 40px;
+  }
+  #second > input {
+    width: 98%;
+    height: 50px;
+  }
+  #info {
+    text-align: left;
+  }
+  .toflex {
+    display: flex;
+  }
+  #gap{
+      display: flex;
+      gap: 60%;
+  }
+  #add{
+      margin-top: 10px;
+  }
+  #disContent{
+    width: 100%;
+    display: none;
+  }
+  .one>input{
+      width: 100%;
+      height: 50px;
+  }
+  .one>select{
+      width: 102%;
+      height: 50px;
+      font-size: 15px;
+  }
+  #checkBox{
+      display: flex;
+  }
+  #toCheck{
+      margin-top: 15px;
+      margin-right: 10px;
+  }
+  #mem{
+     width: 100% ;
+  }
+  #mem>button{
+      border: 1px solid black;
+      background-color: black;
+      color: white;
+      width: 100%;
+      height: 50px;
+      font-weight: bold;
+      font-size: 15px;
+  }
+  #mem>a{
+      text-align: center;
+  }
+  #mem>p{
+      text-align: center;
+  }
+  @media only screen and (min-width:500px) and (max-width:900px){
+    #container{
+      width: 60%;
+    }
+  }
+  @media only screen and (min-width:0px) and (max-width:500px){
+    #container{
+      width: 60%;
+    }
+  }

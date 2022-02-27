@@ -1,0 +1,123 @@
+body {
+    background-color: #faf9f8;
+  }
+  #dividecont {
+    display: flex;
+    /* border: 1px solid black; */
+  }
+  #leftmen {
+    /* border: 1px solid red; */
+    height: 500px;
+    width: 250px;
+    margin-left: 40px;
+  }
+
+  #rightmen {
+    width: 900px;
+  }
+
+  #image {
+    /* display: flex; */
+    border: 1px solid blue;
+    background-image: url("https://www2.hm.com/content/dam/divided_s05/february_2022/5135d/5135d-1x1.jpg");
+    height: 720px;
+    /* width: 100%; */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 900px 700px;
+  }
+
+  #row2 {
+    display: flex;
+    /* border: 1px solid blue; */
+    height: 720px;
+    /* width: 750px; */
+  }
+  #image3 {
+    background-image: url("https://www2.hm.com/content/dam/divided_s03/april_2021/5103e/5103E-1x1-printed-tees.jpg");
+
+    width: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 500px 700px;
+  }
+  #image4 {
+    background-image: url("https://lp2.hm.com/hmgoepprod?set=source[/9b/41/9b41b1aaecb7485a5287377f158f0c5474807509.jpg],origin[dam],category[],type[LOOKBOOK],res[y],hmver[1]&call=url[file:/product/main]");
+    width: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 500px 700px;
+  }
+  #down {
+    text-align: center;
+  }
+  #font {
+    height: 350px;
+    width: 350px;
+
+    margin: 40px;
+    color: white;
+    font-weight: bold;
+    line-height: 0.5;
+  }
+  #btn {
+    background-color: white;
+    font-weight: 700;
+    width: 80px;
+    padding: 5px;
+    border: none;
+  }
+  #font2 {
+    /* border: 1px solid black; */
+    color: white;
+    text-align: center;
+    margin-top: 47px;
+    /* margin-top: 550px; */
+    /* margin-left: 15px; */
+    font-weight: bold;
+    line-height: 0.1;
+  }
+  #font3 {
+    /* border: 1px solid black; */
+    color: white;
+    text-align: center;
+    margin-top: 37px;
+    margin-top: 550px;
+    /* margin-left: 15px; */
+    font-weight: bold;
+    line-height: 0.1;
+  }
+  #rate {
+    border: 1px solid black;
+    background-color: #3b3b3c;
+    height: 100px;
+    /* line-height: 0.5; */
+    margin-top: 400px;
+    margin-left: 150px;
+    width: 200px;
+
+    padding: 0px 20px;
+    color: white;
+    font-size: 20px;
+  }
+  #rate2 {
+    border: 1px solid transparent;
+    background-color: #3b3b3c;
+    height: 100px;
+    width: 150px;
+    /* line-height: 0.5; */
+    margin-top: 400px;
+    margin-left: 650px;
+
+    padding: 0px 20px;
+    color: white;
+    font-size: 20px;
+  }
+  #leftmen > p {
+    line-height: 0.7;
+    font-size: 15px;
+  }
+  #leftmen > p:hover {
+    color: #e50010;
+    text-decoration: underline;
+  }

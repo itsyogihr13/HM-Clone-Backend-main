@@ -1,0 +1,1142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Womens Page</title>
+    <link rel="icon" href="https://tse2.mm.bing.net/th?id=OIP.tIpRgOXKcINGu9VwvaNkBwAAAA&pid=Api&P=0&w=300&h=300">
+    <script src="https://kit.fontawesome.com/addf03b6f3.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <link href="css/header.css" rel="stylesheet" >
+    <link href="css/footer.css" rel="stylesheet" >
+    <link href="css/womens.css" rel="stylesheet" >
+  </head>
+  <style>
+
+  #productImage{
+    width: 100%;
+    height: 80%;
+  }
+  </style>
+
+  <body>
+    <div id="cont">
+      <!-- insert HEADER HERE  -->
+      <div id="main">
+        <div id="header">
+          <div id="header1">
+            <div id="left">
+              <div style="width: 100">Customer Service</div>
+              <div>Newsletter</div>
+              <div>
+                <a
+                  href="https://www2.hm.com/en_in/customer-service/shopping-at-hm/store-locator"
+                  style="text-decoration: none"
+                  >Find a store</a
+                >
+              </div>
+              <div>ooo</div>
+            </div>
+            <div id="right">
+              <div id="rightSignIn">
+                <span id="icon1" style="margin-left: 50px;"></span>
+                <span
+                style="text-decoration-line: none; color: black; width: 50px"
+                onclick="signIn()">
+                Sign In
+              </span>
+                <div class="dropdown-signin">
+                <!-- <p>Hello World!</p> -->
+                <button onclick="signIn()">Sign IN</button>
+                <p>My Account</p>
+                <p>Membership Info</p>
+                <div id="mem" style="color: grey">
+                  <p onclick="becomeMember()">Not a member yet? Join Here!</p>
+                </div>
+                </div>
+              </div>
+              <div style="width: 30%; margin-right: 20px">
+                <div id="icon2"></div>
+                Favourite
+              </div>
+              <div style="margin-left: -10px">
+                <div style="margin-left: 10px" id="icon3"></div>
+                Shopping Bag (0)
+              </div>
+            </div>
+          </div>
+          <div class="logoDiv">
+            <img
+              src="data:image/png;base64,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"
+              placeholder="H&M logo"
+              style="width: 60px; height: 40px"
+              onclick="logo()"
+            />
+          </div>
+          <div id="tosearch" class="categories" style="width: 30%">
+            <nav>
+              <div id="display">
+                <li class="dropdown">
+                  <a href="/ladies" class="sec"> Ladies</a>
+                  <ul class="menu-area" style="margin-top: 20px;">
+                    <ul>
+                      <h3>New arrival</h3>
+                      <li><a href="ladiesSection.html">view all</a></li>
+                      <li><a href="ladiesSection.html">clothes</a></li>
+                      <li><a href="ladiesSection.html">view all</a></li>
+                      <li><a href="ladiesSection.html">clothes</a></li>
+                      <h3>Trending Now</h3>
+                      <li>
+                        <a href="ladiesSection.html">Jackets from Rs.2299</a>
+                      </li>
+                      <li>
+                        <a href="ladiesSection.html">Seasonless Swimwear</a>
+                      </li>
+                      <li><a href="ladiesSection.html">Gift Guide</a></li>
+                      <li><a href="ladiesSection.html">Party Edits</a></li>
+                      <li>
+                        <a href="ladiesSection.html">Music , Movies and Logos</a>
+                      </li>
+                      <li>
+                        <a href="ladiesSection.html">A Circular design story</a>
+                      </li>
+                      <h3>Deals</h3>
+                      <li>
+                        <a href="ladiesSection.html">Socks-Buy 2 get 1 free!</a>
+                      </li>
+                    </ul>
+                    <ul>
+                      <h3>Shop by Product</h3>
+                      <li><a href="ladiesSection.html">view all</a></li>
+                      <li><a href="ladiesSection.html">Tops & T-shirts</a></li>
+                      <li><a href="ladiesSection.html">Dresses</a></li>
+                      <li><a href="ladiesSection.html">Shirts & Blouses</a></li>
+                      <li>
+                        <a href="ladiesSection.html">Sweatshirts & Hoodies</a>
+                      </li>
+                      <li>
+                        <a href="ladiesSection.html">Cardigons & Sweaters</a>
+                      </li>
+                      <li><a href="ladiesSection.html">Knitwears</a></li>
+                      <li><a href="ladiesSection.html">Blazzers</a></li>
+                      <li><a href="ladiesSection.html">Jacket & Coats</a></li>
+                      <li><a href="ladiesSection.html">Basics</a></li>
+                      <li><a href="ladiesSection.html">Trousers</a></li>
+                      <li><a href="ladiesSection.html">Jeans</a></li>
+                      <li><a href="ladiesSection.html">Nightwear</a></li>
+                      <li><a href="ladiesSection.html">Laungwear</a></li>
+                      <li><a href="ladiesSection.html">Sportswear</a></li>
+                      <li><a href="ladiesSection.html">Shorts</a></li>
+                      <li><a href="ladiesSection.html">Skirts</a></li>
+                      <li><a href="ladiesSection.html">Jumpsuits</a></li>
+                      <li>
+                        <a href="ladiesSection.html">Swimwear & Beachwear</a>
+                      </li>
+                      <li><a href="ladiesSection.html">Shoes</a></li>
+                      <li><a href="ladiesSection.html">Accessories</a></li>
+                      <li><a href="ladiesSection.html">Lingerie</a></li>
+                      <li><a href="ladiesSection.html">Socks & Tights</a></li>
+                      <li><a href="ladiesSection.html">Maternity Wear</a></li>
+                      <li><a href="ladiesSection.html">Plus Size</a></li>
+                      <li>
+                        <a href="ladiesSection.html">Dog Clothes & Accessories</a>
+                      </li>
+                      <li><a href="ladiesSection.html">Premium Section</a></li>
+                    </ul>
+                    <ul>
+                      <h3>Sustainability</h3>
+                      <li><a href="">Our Products</a></li>
+                      <li><a href="">H&M take Care</a></li>
+                      <li><a href="">Learn More</a></li>
+                      <h3>Magazine</h3>
+                      <li><a href="">Magazine</a></li>
+                      <h3>Shop by Occasion</h3>
+                      <li><a href="ladiesSection.html">Party Wear</a></li>
+                      <li><a href="ladiesSection.html">Casual Wear</a></li>
+                      <li><a href="ladiesSection.html">Office Wear</a></li>
+                      <li><a href="ladiesSection.html">Laungwear</a></li>
+                    </ul>
+                  </ul>
+                </li>
+                <li class="dropdown">
+                  <a href="/gents" class="sec">Men</a>
+                  <ul class="menu-area" style="margin-top: 20px;">
+                    <ul>
+                      <h3>New arrival</h3>
+                      <li><a href="MensSection.html">view all</a></li>
+                      <li><a href="MensSection.html">clothes</a></li>
+                      <li><a href="MensSection.html">view all</a></li>
+                      <li><a href="MensSection.html">clothes</a></li>
+                      <h3>Trending Now</h3>
+                      <li><a href="MensSection.html">Jackets from Rs.2299</a></li>
+                      <li><a href="MensSection.html">Seasonless Swimwear</a></li>
+                      <li><a href="MensSection.html">Gift Guide</a></li>
+                      <li><a href="MensSection.html">Party Edits</a></li>
+                      <li>
+                        <a href="MensSection.html">Music , Movies and Logos</a>
+                      </li>
+                      <li>
+                        <a href="MensSection.html">A Circular design story</a>
+                      </li>
+                      <h3>Deals</h3>
+                      <li>
+                        <a href="MensSection.html">Socks-Buy 2 get 1 free!</a>
+                      </li>
+                    </ul>
+                    <ul>
+                      <h3>Shop by Product</h3>
+                      <li><a href="MensSection.html">view all</a></li>
+                      <li><a href="MensSection.html">Tops & T-shirts</a></li>
+                      <li><a href="MensSection.html">Dresses</a></li>
+                      <li><a href="MensSection.html">Shirts & Blouses</a></li>
+                      <li>
+                        <a href="MensSection.html">Sweatshirts & Hoodies</a>
+                      </li>
+                      <li><a href="MensSection.html">Cardigons & Sweaters</a></li>
+                      <li><a href="MensSection.html">Knitwears</a></li>
+                      <li><a href="MensSection.html">Blazzers</a></li>
+                      <li><a href="MensSection.html">Jacket & Coats</a></li>
+                      <li><a href="MensSection.html">Basics</a></li>
+                      <li><a href="MensSection.html">Trousers</a></li>
+                      <li><a href="MensSection.html">Jeans</a></li>
+                      <li><a href="MensSection.html">Nightwear</a></li>
+                      <li><a href="MensSection.html">Laungwear</a></li>
+                      <li><a href="MensSection.html">Sportswear</a></li>
+                      <li><a href="MensSection.html">Shorts</a></li>
+                      <li><a href="MensSection.html">Skirts</a></li>
+                      <li><a href="MensSection.html">Jumpsuits</a></li>
+                      <li><a href="MensSection.html">Swimwear & Beachwear</a></li>
+                      <li><a href="MensSection.html">Shoes</a></li>
+                      <li><a href="MensSection.html">Accessories</a></li>
+                      <li><a href="MensSection.html">Lingerie</a></li>
+                      <li><a href="MensSection.html">Socks & Tights</a></li>
+                      <li><a href="MensSection.html">Maternity Wear</a></li>
+                      <li><a href="MensSection.html">Plus Size</a></li>
+                      <li>
+                        <a href="MensSection.html">Dog Clothes & Accessories</a>
+                      </li>
+                      <li><a href="MensSection.html">Premium Section</a></li>
+                    </ul>
+                    <ul>
+                      <h3>Sustainability</h3>
+                      <li><a href="">Our Products</a></li>
+                      <li><a href="">H&M take Care</a></li>
+                      <li><a href="">Learn More</a></li>
+                      <h3>Magazine</h3>
+                      <li><a href="">Magazine</a></li>
+                      <h3>Shop by Occasion</h3>
+                      <li><a href="MensSection.html">Party Wear</a></li>
+                      <li><a href="MensSection.html">Casual Wear</a></li>
+                      <li><a href="MensSection.html">Office Wear</a></li>
+                      <li><a href="MensSection.html">Laungwear</a></li>
+                    </ul>
+                  </ul>
+                </li>
+                <li class="dropdown">
+                  <a href="/children" class="sec">Baby</a>
+                  <ul class="menu-area" style="margin-top: 20px;">
+                    <ul>
+                      <h3>Newborn</h3>
+                      <li><a href="KidsSection.html">View all</a></li>
+                      <li><a href="KidsSection.html">New Arrivals</a></li>
+                      <li><a href="KidsSection.html">Clothing</a></li>
+                      <li><a href="KidsSection.html">Accessories</a></li>
+                      <li><a href="KidsSection.html">Outerwear</a></li>
+                      <li><a href="KidsSection.html">Shoes</a></li>
+                      <h3>Baby Girl</h3>
+                      <li><a href="KidsSection.html">View all</a></li>
+                      <li><a href="KidsSection.html">New Arrivals</a></li>
+                      <li><a href="KidsSection.html">Clothing</a></li>
+                      <li><a href="KidsSection.html">Outerwear</a></li>
+                      <li><a href="KidsSection.html">Accessories</a></li>
+                      <li><a href="KidsSection.html">Shoes</a></li>
+                      <li><a href="KidsSection.html">Costumes</a></li>
+                    </ul>
+                    <ul>
+                      <h3>Baby Boy</h3>
+                      <li><a href="KidsSection.html">View all</a></li>
+                      <li><a href="KidsSection.html">New Arrivals</a></li>
+                      <li><a href="KidsSection.html">Clothing</a></li>
+                      <li><a href="KidsSection.html">Outerwear</a></li>
+                      <li><a href="KidsSection.html">Accessories</a></li>
+                      <li><a href="KidsSection.html">Shoes</a></li>
+                      <li><a href="KidsSection.html">Costumes</a></li>
+                    </ul>
+                    <ul>
+                      <h3>Shop by Products</h3>
+                      <li><a href="KidsSection.html">View all</a></li>
+                      <li><a href="KidsSection.html">New Arrivals</a></li>
+                      <li><a href="KidsSection.html">Clothing</a></li>
+                      <li><a href="KidsSection.html">Outerwear</a></li>
+                      <li><a href="KidsSection.html">Accessories</a></li>
+                      <li><a href="KidsSection.html">Shoes</a></li>
+                      <li><a href="KidsSection.html">Costumes</a></li>
+                      <li><a href="KidsSection.html">Sale</a></li>
+                    </ul>
+                    <ul>
+                      <h3>Trending Now</h3>
+                      <li><a href="KidsSection.html">Baby Exclusive</a></li>
+                      <li><a href="KidsSection.html">The Holiday Shop</a></li>
+                      <li><a href="KidsSection.html">Party & Occasion</a></li>
+                      <li><a href="KidsSection.html">Multipacks</a></li>
+                      <li><a href="KidsSection.html">The Character Shop</a></li>
+                      <li><a href="KidsSection.html">Basics</a></li>
+                      <h3>Sustainability</h3>
+                      <li><a href="KidsSection.html">Our Products</a></li>
+                      <li><a href="KidsSection.html">H&M take Care</a></li>
+                      <li><a href="KidsSection.html">Learn More</a></li>
+                    </ul>
+                  </ul>
+                </li>
+                <li class="dropdown">
+                  <a href="/children" class="sec">Kids</a>
+                  <ul class="menu-area" style="margin-top: 20px;">
+                    <ul>
+                      <h3>Newborn</h3>
+                      <li><a href="KidsSection.html">View all</a></li>
+                      <li><a href="KidsSection.html">New Arrivals</a></li>
+                      <li><a href="KidsSection.html">Clothing</a></li>
+                      <li><a href="KidsSection.html">Accessories</a></li>
+                      <li><a href="KidsSection.html">Outerwear</a></li>
+                      <li><a href="KidsSection.html">Shoes</a></li>
+                      <h3>Baby Girl</h3>
+                      <li><a href="KidsSection.html">View all</a></li>
+                      <li><a href="KidsSection.html">New Arrivals</a></li>
+                      <li><a href="KidsSection.html">Clothing</a></li>
+                      <li><a href="KidsSection.html">Outerwear</a></li>
+                      <li><a href="KidsSection.html">Accessories</a></li>
+                      <li><a href="KidsSection.html">Shoes</a></li>
+                      <li><a href="KidsSection.html">Costumes</a></li>
+                    </ul>
+                    <ul>
+                      <h3>Baby Boy</h3>
+                      <li><a href="KidsSection.html">View all</a></li>
+                      <li><a href="KidsSection.html">New Arrivals</a></li>
+                      <li><a href="KidsSection.html">Clothing</a></li>
+                      <li><a href="KidsSection.html">Outerwear</a></li>
+                      <li><a href="KidsSection.html">Accessories</a></li>
+                      <li><a href="KidsSection.html">Shoes</a></li>
+                      <li><a href="KidsSection.html">Costumes</a></li>
+                    </ul>
+                    <ul>
+                      <h3>Shop by Products</h3>
+                      <li><a href="KidsSection.html">View all</a></li>
+                      <li><a href="KidsSection.html">New Arrivals</a></li>
+                      <li><a href="KidsSection.html">Clothing</a></li>
+                      <li><a href="KidsSection.html">Outerwear</a></li>
+                      <li><a href="KidsSection.html">Accessories</a></li>
+                      <li><a href="KidsSection.html">Shoes</a></li>
+                      <li><a href="KidsSection.html">Costumes</a></li>
+                      <li><a href="KidsSection.html">Sale</a></li>
+                    </ul>
+                    <ul>
+                      <h3>Trending Now</h3>
+                      <li><a href="KidsSection.html">Baby Exclusive</a></li>
+                      <li><a href="KidsSection.html">The Holiday Shop</a></li>
+                      <li><a href="KidsSection.html">Party & Occasion</a></li>
+                      <li><a href="KidsSection.html">Multipacks</a></li>
+                      <li><a href="KidsSection.html">The Character Shop</a></li>
+                      <li><a href="KidsSection.html">Basics</a></li>
+                      <h3>Sustainability</h3>
+                      <li><a href="KidsSection.html">Our Products</a></li>
+                      <li><a href="KidsSection.html">H&M take Care</a></li>
+                      <li><a href="KidsSection.html">Learn More</a></li>
+                    </ul>
+                  </ul>
+                </li>
+                <li class="dropdown">
+                  <a href="/divide" class="sec">Divided</a>
+                  <ul class="menu-area" style="margin-top: 20px;">
+                    <ul>
+                      <h3>New arrival</h3>
+                      <li><a href="">Clothes</a></li>
+                      <li><a href="">Sales & Accessories</a></li>
+                      <h3>Trending Now</h3>
+                      <li><a href="">Graphics</a></li>
+                      <li><a href="">Party Edit</a></li>
+                      <li><a href="">Sweatshirts from Rs.799</a></li>
+                      <li><a href="">Jackets from Rs.1499</a></li>
+                    </ul>
+                    <ul>
+                      <h3>Shop by Product</h3>
+                      <li><a href="">Garment care</a></li>
+                      <li><a href="">View all</a></li>
+                      <li><a href="">Divided-Basics</a></li>
+                      <li><a href="">Tops</a></li>
+                      <li><a href="">Shirts & Blouses</a></li>
+                      <li><a href="">Sweatshirts & Hoodies</a></li>
+                      <li><a href="">Cardigons & Jumpers</a></li>
+                      <li><a href="">Knitwears</a></li>
+                      <li><a href="">Blazzers</a></li>
+                      <li><a href="">Jacket & Coats</a></li>
+                      <li><a href="">Dresses</a></li>
+                      <li><a href="">Trousers</a></li>
+                      <li><a href="">Jeans</a></li>
+                      <li><a href="">Nightwear</a></li>
+                      <li><a href="">Laungwear</a></li>
+                      <li><a href="">Sportswear</a></li>
+                      <li><a href="">Shorts</a></li>
+                      <li><a href="">Shoes</a></li>
+                      <li><a href="">Skirts</a></li>
+                      <li><a href="">Underwear & Nightwear</a></li>
+                    </ul>
+                    <ul>
+                      <h3>Sustainability</h3>
+                      <li><a href="">Our Products</a></li>
+                      <li><a href="">H&M Take care</a></li>
+                      <li><a href="">Learn more</a></li>
+                    </ul>
+                  </ul>
+                </li>
+                <li class="dropdown">
+                  <a href="/sale" class="sec">Sale</a>
+                  <ul class="menu-area" style="margin-top: 20px;">
+                    <ul>
+                      <h3>Women</h3>
+                      <li><a href="ladiesSection.html">view all</a></li>
+                      <li><a href="ladiesSection.html">clothes</a></li>
+                      <li><a href="ladiesSection.html">view all</a></li>
+                      <li><a href="ladiesSection.html">Tops & T-shirts</a></li>
+                      <li><a href="ladiesSection.html">Dresses</a></li>
+                      <li><a href="ladiesSection.html">Shirts & Blouses</a></li>
+                      <li>
+                        <a href="ladiesSection.html">Sweatshirts & Hoodies</a>
+                      </li>
+                      <li>
+                        <a href="ladiesSection.html">Cardigons & Sweaters</a>
+                      </li>
+                      <li><a href="ladiesSection.html">Knitwears</a></li>
+                      <li><a href="ladiesSection.html">Blazzers</a></li>
+                      <li><a href="ladiesSection.html">Jacket & Coats</a></li>
+                      <li><a href="ladiesSection.html">Basics</a></li>
+                      <li><a href="ladiesSection.html">Trousers</a></li>
+                      <li><a href="ladiesSection.html">Jeans</a></li>
+                      <li><a href="ladiesSection.html">Nightwear</a></li>
+                      <li><a href="ladiesSection.html">Laungwear</a></li>
+                      <li><a href="ladiesSection.html">Sportswear</a></li>
+                      <li><a href="ladiesSection.html">Shorts</a></li>
+                      <li><a href="ladiesSection.html">Skirts</a></li>
+                      <li><a href="ladiesSection.html">Jumpsuits</a></li>
+                      <li>
+                        <a href="ladiesSection.html">Swimwear & Beachwear</a>
+                      </li>
+                      <li><a href="ladiesSection.html">Shoes</a></li>
+                      <li><a href="ladiesSection.html">Accessories</a></li>
+                      <li><a href="ladiesSection.html">Lingerie</a></li>
+                    </ul>
+                    <ul>
+                      <h3>Divided</h3>
+                      <li><a href="">view all</a></li>
+                      <li><a href="">clothes</a></li>
+                      <li><a href="">view all</a></li>
+                      <li><a href="">Tops & T-shirts</a></li>
+                      <li><a href="">Dresses</a></li>
+                      <li><a href="">Shirts & Blouses</a></li>
+                      <li><a href="">Sweatshirts & Hoodies</a></li>
+                      <li><a href="">Cardigons & Sweaters</a></li>
+                      <li><a href="">Knitwears</a></li>
+                      <li><a href="">Blazzers</a></li>
+                      <li><a href="">Jacket & Coats</a></li>
+                      <li><a href="">Basics</a></li>
+                      <li><a href="">Trousers</a></li>
+                      <li><a href="">Jeans</a></li>
+                      <li><a href="">Nightwear</a></li>
+                      <li><a href="">Laungwear</a></li>
+                      <li><a href="">Sportswear</a></li>
+                    </ul>
+                    <ul>
+                      <h3>Men</h3>
+                      <li><a href="MensSection.html">view all</a></li>
+                      <li><a href="MensSection.html">clothes</a></li>
+                      <li><a href="MensSection.html">view all</a></li>
+                      <li><a href="MensSection.html">Tops & T-shirts</a></li>
+                      <li><a href="MensSection.html">Dresses</a></li>
+                      <li><a href="MensSection.html">Shirts & Blouses</a></li>
+                      <li>
+                        <a href="MensSection.html">Sweatshirts & Hoodies</a>
+                      </li>
+                      <li><a href="MensSection.html">Cardigons & Sweaters</a></li>
+                      <li><a href="MensSection.html">Knitwears</a></li>
+                      <li><a href="MensSection.html">Blazzers</a></li>
+                      <li><a href="MensSection.html">Jacket & Coats</a></li>
+                      <li><a href="MensSection.html">Basics</a></li>
+                      <li><a href="MensSection.html">Trousers</a></li>
+                      <li><a href="MensSection.html">Jeans</a></li>
+                      <li><a href="MensSection.html">Nightwear</a></li>
+                      <li><a href="MensSection.html">Laungwear</a></li>
+                      <li><a href="MensSection.html">Sportswear</a></li>
+                      <li><a href="MensSection.html">Premium Section</a></li>
+                      <h3>Baby</h3>
+                      <li><a href="KidsSection.html">Baby Girls</a></li>
+                      <li><a href="KidsSection.html">Baby Boys</a></li>
+                      <li><a href="KidsSection.html">Newborn</a></li>
+                      <li><a href="KidsSection.html">Veiw all products</a></li>
+                    </ul>
+                    <ul>
+                      <h3>Kids</h3>
+                      <li><a href="KidsSection.html">Girls</a></li>
+                      <li><a href="KidsSection.html">Boys</a></li>
+                      <li><a href="KidsSection.html">View all products</a></li>
+                      <li>
+                        <a href="KidsSection.html">Last Chances up to 70% off</a>
+                      </li>
+                    </ul>
+                  </ul>
+                </li>
+                <li class="dropdown">
+                  <a href="/sustainability" class="sec" id="not">Sustainability</a>
+                  <ul class="menu-area" style="margin-top: 20px;">
+                    <ul>
+                      <h3>Our Work</h3>
+                      <li><a href="">The Latest</a></li>
+                      <li><a href="">Let's change</a></li>
+                      <li><a href="">Let's Innovate</a></li>
+                      <li><a href="">Let's be fair</a></li>
+                      <li><a href="">Let's be for all</a></li>
+                      <li><a href="">Let's be transparent</a></li>
+                      <li><a href="">Let's clean up</a></li>
+                      <li><a href="">Let's close the loop</a></li>
+                      <li><a href="">Praise from others</a></li>
+                    </ul>
+                    <ul>
+                      <h3>Our products</h3>
+                      <li><a href="">Conscious products explained</a></li>
+                      <li><a href="">Women</a></li>
+                      <li><a href="">Baby</a></li>
+                      <li><a href="">Kids</a></li>
+                      <li><a href="">Men</a></li>
+                      <li><a href="">Divided</a></li>
+                    </ul>
+                    <ul>
+                      <h3>H&M Take Care</h3>
+                      <li><a href="">Repair, remake and refresh</a></li>
+                      <h3>Our commitment</h3>
+                      <li><a href="">H&M Group Sustainability</a></li>
+                      <li><a href="">Strategy</a></li>
+                      <li><a href="">H&M Group Sustainability Report</a></li>
+                      <li><a href="">H&M Foundation</a></li>
+                    </ul>
+                  </ul>
+                </li>
+              </div>
+            </nav>
+  
+            <div id="search">
+              <div>
+                <button id="searchbutton">
+                  <div id="icon4"></div>
+                </button>
+                <input type="search" placeholder="Search products" />
+              </div>
+              <hr />
+            </div>
+          </div>
+  
+          <div id="member">
+            <p class="sec" onclick="becomeMember()">
+              Become a member & earn 100 welcome points.
+            </p>
+            <p>Estimated delivery time:2-7 days</p>
+            <p class="sec">download the H&M App</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="content_div">
+      <!-- content part -->
+      <div id="leftSide">
+        <h3>Women</h3>
+        <a href="/women"><p>View all</p></a>
+        <p>Last Chance - Up to 70% off</p>
+        <p>Dresses</p>
+        <p>Tops & T-shirts</p>
+        <p>Shirts & Blouses</p>
+        <p>Blazers & Waistcoats</p>
+        <p>Trousers</p>
+        <a href="shorts.html"> <p>Shorts</p> </a>
+        <p>Skirts</p>
+        <p>Jeans</p>
+        <p>Basics</p>
+        <p>Swimwear</p>
+        <p>Lingerie</p>
+        <p>Sleepwear & Loungewear</p>
+        <p>Accessories</p>
+        <p>Shoes</p>
+        <p>Jackets & Coats</p>
+        <p>Sweatshirts & Hoodies</p>
+        <p>Knitwear</p>
+        <p>Cardigans & Sweaters</p>
+        <p>Socks & Tights</p>
+        <p>Sportswear</p>
+        <p>Jumpsuits</p>
+        <p>Maternity Wear</p>
+        <p>Plus Sizes</p>
+        <p>Extended Sizes</p>
+        <p>Divided</p>
+        <p>Premium Selection</p>
+
+        <h3>Divided</h3>
+        <h3>Men</h3>
+        <h3>Baby</h3>
+        <h3>Kids</h3>
+      </div>
+      <div id="rightSide">
+        <div id="sale">
+          <h1>Sale is now up to 60% off</h1>
+          <p>Valid on selected items Online & In store while stock lasts.</p>
+          <!-- sALE poster-->
+          <button>Women</button><button>Men</button><button>Kids</button
+          ><button>Baby</button><button>Divident</button>
+        </div>
+        <!-- <i class="fas fa-camera"></i> -->
+
+        <div id="sort">
+          <p>View All</p>
+          <form id="myfrom">
+            <select id="Sort_select">
+              <option value="">SORT BY</option>
+              <option value="Recomended">Recomended</option>
+              <option value="Newest">Newest</option>
+              <option value="Lowest">Lowest Price</option>
+              <option value="HIghest">HIghest Price</option>
+            </select>
+            <select name="" id="">
+              <option value="">CONSCIONS</option>
+            </select>
+            <select name="" id="">
+              <option value="">SIZE</option>
+              <option value="4">4</option>
+              <option value="6">6</option>
+              <option value="8">8</option>
+              <option value="10">10</option>
+              <option value="12">12</option>
+              <option value="16">16</option>
+              <option value="S">S</option>
+              <option value="M">M</option>
+              <option value="XL">XL</option>
+              <option value="XXL">XXL</option>
+            </select>
+            <select name="" id="">
+              <option value="">COLOUR</option>
+              <option value="">Black</option>
+              <option value="">Blue</option>
+              <option value="">Brown</option>
+              <option value="">Red</option>
+              <option value="">Grey</option>
+              <option value="">Pink</option>
+            </select>
+            <select name="" id="">
+              <option value="">PATTERN</option>
+            </select>
+            <!-- <select name="" id="">
+                <option value=""></option>
+            </select> -->
+            <label for=""
+              >ALL FILTER<i class="filter fas fa-sort-amount-up"></i>
+            </label>
+          </form>
+          <!-- <div id="datalit">
+            <datalist>
+              jhjfjfj
+              <option value="orange"></option>
+              <option value="red"></option>
+              <option value="blue"></option>
+              <option value="green"></option>
+            </datalist>
+          </div> -->
+        </div>
+        <div id="womensDiv">
+
+          <% womens.map((items, idx) =>{ %>
+
+            <div onclick = "clickedProduct(`<%= JSON.stringify(items) %>`)">
+              <img src="<%= items.image %>" id = "productImage">
+
+              <div id="content-div">
+                <h3><%= `Name: ${items.name}` %></h3>
+                <h4><%= `Brand: ${items.brand}` %></h4>
+              </div>
+              <div id = "price-div" style="display: flex;gap: 30px;">
+                <p style = "color: red;"><%= `Rs. ${items.price}` %></p>
+                <strike style="margin-top: 15px;"><%= items.strikeOff %></strike>
+              </div>
+            </div>
+
+          <%})%>
+
+        
+          </div>
+
+        <div id="page">
+          <h3>SHOWING 36 of 108 Items</h3>
+          <progress value="36" max="100"></progress>
+          <hr />
+          <button>Load More Products</button>
+        </div>
+      <!-- </div> -->
+    </div>
+    <!-- <footer class="footer">
+      <div class="footer__addr">
+       
+      
+      <ul class="footer__nav">
+        <li class="nav__item">
+          <h2 class="nav__title">SHOP</h2>
+    
+          <ul class="nav__ul">
+            <li>
+              <a href="#">Women</a>
+            </li>
+    
+            <li>
+              <a href="#">Men</a>
+            </li>
+            <li>
+              <a href="#">kids</a>
+            </li>
+            <li>
+              <a href="#">Baby</a>
+            </li>
+          </ul>
+        </li>
+        
+        <li class="nav__item ">
+          <h2 class="nav__title">CORPORATE INFO</h2>
+          
+          <ul class="nav__ul">
+            <li>
+              <a href="#">Career at H&M</a>
+            </li>
+            
+            <li>
+              <a href="#">About H&M Group</a>
+            </li>
+    
+            <li>
+              <a href="#">Press</a>
+            </li>
+            </ul>
+          
+            <li class="nav__item">
+          <h2 class="nav__title">HELP</h2>
+              <ul class="nav__ul">
+            <li>
+              <a href="#">Customer Service</a>
+            </li>
+            
+            <li>
+              <a href="#">My H&M</a>
+            </li>
+            
+            <li>
+              <a href="#">Find a store</a>
+            </li>
+            <li>
+              <a href="#">Contact</a>
+            </li>
+          </ul>
+        </li>
+        
+        <li class="nav__item">
+          <h2 class="nav__title">Sign up for news letter</h2>
+          
+          <ul class="nav__ul">
+            <li>
+              <a href="#">SIGN UP-></a>
+            </li>
+            
+            
+            
+           
+          </ul>
+        </li>
+      </ul>
+      
+      </div>
+    
+      
+      <div id = "contact">
+        <img src="https://cdn1.iconfinder.com/data/icons/social-media-rounded-corners/512/Rounded_Facebook_svg-256.png" alt="fb" onclick="fb()" />
+        <img src="https://cdn3.iconfinder.com/data/icons/picons-social/57/03-twitter-256.png" alt="twitter" onclick="twitter()" />
+        <img src="https://cdn4.iconfinder.com/data/icons/picons-social/57/38-instagram-2-256.png" alt="insta" onclick="insta()" />
+        <img src="https://cdn3.iconfinder.com/data/icons/social-media-black-white-2/512/BW_Youtube_glyph_svg-256.png" alt="youtube" onclick="youtube()" />
+        <img src="https://cdn1.iconfinder.com/data/icons/social-media-circle-7/512/Circled_Pinterest_svg-256.png" alt="pinterest" onclick="pinterest()" />
+       
+    </div>
+    
+      
+      <div class="legal" >
+        
+        
+     
+          <p>The content of this site is copyright-protected and is the property of H&M Hennes & Mauritz AB. H&M's business <br>concept is to offer fashion and quality at the best price. H&M has
+    </p> 
+        <img src="https://cdn.freebiesupply.com/images/large/2x/hm-logo-black-and-white.png" height="40px">
+      </div>
+    </footer> -->
+  </body>
+</html>
+<script src = "js/header.js"></script>
+<script>
+//  var LadiesItems =[
+
+// {
+// name : "shoes",
+// brand:"adidas",
+// image : "https://i.pinimg.com/originals/3b/9c/37/3b9c37df4d23edb68bcbc9fe5638d8cb.jpg",
+// price : "1609.00",
+// strikeOff:"2999.00"
+// },
+// {
+
+//     name : "top",
+//     brand:"tommy",
+//     image : "https://lp2.hm.com/hmgoepprod?set=source[/a8/2b/a82b600bc9933876752c6011ecc1e321fad891aa.jpg],origin[dam],category[],type[LOOKBOOK],res[y],hmver[1]&call=url[file:/product/main]",
+//     price : "2499.00",
+//     strikeOff:"3999.00"
+// },
+// {
+//     name : "top",
+//     brand:"zara",
+//     image : "https://lp2.hm.com/hmgoepprod?set=source[/fe/db/fedb403705bd980831fb67a13bee3b9f8fa4a7eb.jpg],origin[dam],category[],type[LOOKBOOK],res[y],hmver[1]&call=url[file:/product/main]",
+//     price : "1609.00",
+//     strikeOff:"2999.00"
+// },
+// {
+//     name : "sweater",
+//     brand:"zara",
+//     image : "https://lp2.hm.com/hmgoepprod?set=source[/7d/7b/7d7b176895ba09fb5ab25b942c8bed91283879ad.jpg],origin[dam],category[],type[LOOKBOOK],res[y],hmver[1]&call=url[file:/product/main]",
+//     price : "1609.00",
+//     strikeOff:"1999.00"
+// },
+// {
+//     name : "shoes",
+//     brand:"adidas",
+//     image : "https://i.pinimg.com/736x/94/2b/15/942b15a03f41536f1ac1586b05f04dfc--gray-addidas-shoes-gray-adidas.jpg",
+//     price : "1499.00",
+//     strikeOff:"2299.00"
+
+// },
+// {
+
+//     name : "sweater",
+//     brand:"tommy",
+//     image : "https://lp2.hm.com/hmgoepprod?set=source[/9e/54/9e54cb44a2622f0c35a963f6bf76abe010d97f8e.jpg],origin[dam],category[],type[LOOKBOOK],res[y],hmver[1]&call=url[file:/product/main]",
+//     price : "1099.00",
+//     strikeOff:"1999.00"
+// },
+// {
+//     name : "jacket",
+//     brand:"levis",
+//     image : "https://lp2.hm.com/hmgoepprod?set=source[/ad/ff/adffecc043fd8f4e4c6e0de5c542b64458853e4c.jpg],origin[dam],category[],type[LOOKBOOK],res[y],hmver[1]&call=url[file:/product/main]",
+//     price : "1729.00",
+//     strikeOff:"2299.00"
+// },
+// {
+//     name : "top",
+//     brand:"levis",
+//     image : "https://lp2.hm.com/hmgoepprod?set=source[/17/c1/17c1b9717bce35ad2150135c9af8f6f0788930ba.jpg],origin[dam],category[],type[LOOKBOOK],res[z],hmver[1]&call=url[file:/product/main]",
+//     price : "979.00",
+//     strikeOff:"1499.00"
+
+// },
+// {
+//     name : "top",
+//     brand:"zara",
+//     image : "https://lp2.hm.com/hmgoepprod?set=source[/16/0b/160bcdbd9288c7958eda6a3a598a6b9919434a7c.jpg],origin[dam],category[],type[LOOKBOOK],res[z],hmver[1]&call=url[file:/product/main]",
+//     price : "3899.00",
+//     strikeOff:"5999.00"
+ 
+// },
+// {
+//     name : "jacket",
+//     brand:"levis",
+//     image : "https://lp2.hm.com/hmgoepprod?set=source[/2b/0c/2b0c71ecd5f5096f3da711ca47b0a9dbe7d9f534.jpg],origin[dam],category[],type[LOOKBOOK],res[z],hmver[1]&call=url[file:/product/main]",
+//     price : "2099.00",
+//     strikeOff:"2999.00"
+// },
+
+// {
+//     name : "shoes",
+//     brand:"adidas",
+//     image : "https://di2ponv0v5otw.cloudfront.net/posts/2018/03/30/5abece8e6f8f5989e58b9632/m_5abece909cc7efbc66bc38e3.jpeg",
+//     price : "1299.00",
+//     strikeOff:"1999.00"
+// },
+// {
+//     name : "top",
+//     brand:"tommy",
+//     image : "https://lp2.hm.com/hmgoepprod?set=source[/e5/1b/e51bbbb5de842348a1acabe468ac2ea4bfe08b55.jpg],origin[dam],category[],type[LOOKBOOK],res[z],hmver[1]&call=url[file:/product/main]",
+//     price : "2999.00",
+//     strikeOff:"3999.00"
+// },
+// {
+//     name : "top",
+//     brand:"zara",
+//     image : "https://lp2.hm.com/hmgoepprod?set=source[/12/9e/129eea9ab76e5e424de92c7f330a68a09b7e9499.jpg],origin[dam],category[],type[LOOKBOOK],res[z],hmver[1]&call=url[file:/product/main]",
+//     price : "839.00",
+//     strikeOff:"1749.00"
+
+// },
+// {
+//     name : "shoes",
+//     brand:"adidas",
+//     image : "https://i.pinimg.com/originals/00/57/61/0057619c60c2400970844360a5d6fe86.jpg",
+//     price : "1609.00",
+//     strikeOff:"2299.00"
+// },
+// {
+//     name : "sweater",
+//     brand:"levis",
+//     image : "https://lp2.hm.com/hmgoepprod?set=source[/91/91/919198647e330dd3f4a02fc119295a0c72e4f45e.jpg],origin[dam],category[],type[LOOKBOOK],res[z],hmver[1]&call=url[file:/product/main]",
+//     price : "499.00",
+//     strikeOff:"599.00"
+
+// },
+// {
+//     name : "pajama",
+//     brand:"tommy",
+//     image : "https://lp2.hm.com/hmgoepprod?set=source[/16/31/1631fab5118112eb206dad44662b8c33c0a64698.jpg],origin[dam],category[],type[LOOKBOOK],res[z],hmver[1]&call=url[file:/product/main]",
+//     price : "849.00",
+//     strikeOff:"1299.00"
+
+// },
+// {
+//     name : "sweater",
+//     brand:"tommy",
+//     image : "https://lp2.hm.com/hmgoepprod?set=source[/05/fe/05feeb08774242941200292feed098dce5c77f98.jpg],origin[dam],category[],type[LOOKBOOK],res[z],hmver[1]&call=url[file:/product/main]",
+//     price : "479.00",
+//     strikeOff:"799.00"
+// },
+// {
+//     name : "jacket",
+//     brand:"zara",
+//     image : "https://lp2.hm.com/hmgoepprod?set=source[/8d/14/8d14257a18690645d79b329f0acfc3ece08e2dd5.jpg],origin[dam],category[],type[LOOKBOOK],res[z],hmver[1]&call=url[file:/product/main]",
+//     price : "2499.00",
+//     strikeOff:"3999.00"
+
+// },
+// {
+//     name : "pajama",
+//     brand:"zara",
+//     image : "https://lp2.hm.com/hmgoepprod?set=source[/fa/aa/faaa65c507592dcdb6a5767f572e1283c668895b.jpg],origin[dam],category[],type[LOOKBOOK],res[z],hmver[1]&call=url[file:/product/main]",
+//     price : "1499.00",
+//     strikeOff:"2299.00"
+
+// },
+// {
+//     name : "boots",
+//     brand:"adidas",
+//     image : "https://lp2.hm.com/hmgoepprod?set=source[/ae/5b/ae5ba857c652dd7c8fbcfae62b9a5c233eced756.jpg],origin[dam],category[],type[LOOKBOOK],res[z],hmver[1]&call=url[file:/product/main]",
+//     price : "1199.00",
+//     strikeOff:"1999.00"
+
+// },
+// {
+//     name : "jacket",
+//     brand:"zara",
+//     image : "https://lp2.hm.com/hmgoepprod?set=source[/5c/55/5c55c756a07372a1701172a1225e4d4c1a60b63c.jpg],origin[dam],category[],type[LOOKBOOK],res[z],hmver[1]&call=url[file:/product/main]",
+//     price : "1379.00",
+//     strikeOff:"2299.00"
+// },
+// {
+//     name : "top",
+//     brand:"zara",
+//     image : "https://lp2.hm.com/hmgoepprod?set=source[/5e/80/5e802b4cd245771b41cae7c168ffdea313876c5a.jpg],origin[dam],category[],type[LOOKBOOK],res[z],hmver[1]&call=url[file:/product/main]",
+//     price : "1199.00",
+//     strikeOff:"1999.00"
+
+// },
+// {
+//     name : "sweater",
+//     brand:"levis",
+//     image : "https://lp2.hm.com/hmgoepprod?set=source[/e8/56/e856209d1f4133ef9649d580e6cede8075646aa5.jpg],origin[dam],category[],type[LOOKBOOK],res[z],hmver[1]&call=url[file:/product/main]",
+//     price : "1499.00",
+//     strikeOff:"2299.00"
+
+// },
+// {
+//     name : "pajama",
+//     brand:"tommy",
+//     image : "https://lp2.hm.com/hmgoepprod?set=source[/de/e5/dee513f889afc526e6bb8fa116b750328d62dd8f.jpg],origin[dam],category[],type[LOOKBOOK],res[z],hmver[1]&call=url[file:/product/main]",
+//     price : "1199.00",
+//     strikeOff:"1999.00"
+
+// },
+// {
+//     name : "jacket",
+//     brand:"zara",
+//     image : "https://lp2.hm.com/hmgoepprod?set=source[/07/bf/07bf659688feac821770a5c8c79e9725eccb3a2e.jpg],origin[dam],category[],type[LOOKBOOK],res[z],hmver[1]&call=url[file:/product/main]",
+//     price : "1609.00",
+//     strikeOff:"2299.00"
+
+// },
+// {
+//     name : "pajama",
+//     brand:"zara",
+//     image : "https://lp2.hm.com/hmgoepprod?set=source[/16/48/1648c3117d82aabf15defc2edf90b910f79334c3.jpg],origin[dam],category[],type[LOOKBOOK],res[z],hmver[1]&call=url[file:/product/main]",
+//     price : "1599.00",
+//     strikeOff:"3999.00"
+
+// },
+// {
+//     name : "pajama",
+//     brand:"tommy",
+//     image : "https://lp2.hm.com/hmgoepprod?set=source[/3b/cc/3bcc8d743122bd33f83e3ff3351408a8d0db0097.jpg],origin[dam],category[],type[LOOKBOOK],res[z],hmver[1]&call=url[file:/product/main]",
+//     price : "899.00",
+//     strikeOff:"1499.00"
+
+// },
+// {
+//     name : "jacket",
+//     brand:"tommy",
+//     image : "https://lp2.hm.com/hmgoepprod?set=source[/40/b3/40b30a8bafcf2a5c0ef72f30f3c477bc23355fe3.jpg],origin[dam],category[],type[LOOKBOOK],res[z],hmver[1]&call=url[file:/product/main]",
+//     price : "1499.00",
+//     strikeOff:"1999.00"
+
+// },
+// {
+//     name : "top",
+//     brand:"tommy",
+//     image : "https://lp2.hm.com/hmgoepprod?set=source[/c0/7e/c07ed7b4c4366cb8be1a5ae6e919f75e0086c47d.jpg],origin[dam],category[],type[LOOKBOOK],res[z],hmver[1]&call=url[file:/product/main]",
+//     price : "1399.00",
+//     strikeOff:"1999.00"
+// },
+// {
+//     name : "pajama",
+//     brand:"levis",
+//     image : "https://lp2.hm.com/hmgoepprod?set=source[/24/dd/24ddbfe408d9aa0b14c7e2990589667fa3cce2e6.jpg],origin[dam],category[],type[LOOKBOOK],res[z],hmver[1]&call=url[file:/product/main]",
+//     price : "799.00",
+//     strikeOff:"1999.00"
+
+// },
+// {
+//     name : "top",
+//     brand:"tommy",
+//     image : "https://lp2.hm.com/hmgoepprod?set=source[/06/6d/066d7e6e4bac39ea6ebcb68827042a8b7212e0be.jpg],origin[dam],category[],type[LOOKBOOK],res[z],hmver[1]&call=url[file:/product/main]",
+//     price : "3899.00",
+//     strikeOff:"5999.00"
+// },
+// {
+//     name : "pants",
+//     brand:"tommy",
+//     image : "https://lp2.hm.com/hmgoepprod?set=source[/0b/40/0b402d529b6f56e378eee2d9c89dc703b27d9ff4.jpg],origin[dam],category[],type[LOOKBOOK],res[z],hmver[1]&call=url[file:/product/main]",
+//     price : "1729.00",
+//     strikeOff:"2299.00"
+// },
+// {
+//     name : "pajama",
+//     brand:"levis",
+//     image : "https://lp2.hm.com/hmgoepprod?set=source[/3e/2e/3e2e9b1cd7ef0b5a90d9dcd40dd7cd33c733e5c7.jpg],origin[dam],category[],type[LOOKBOOK],res[z],hmver[1]&call=url[file:/product/main]",
+//     price : "1499.00",
+//     strikeOff:"2599.00"
+
+// },
+// {
+//     name : "jacket",
+//     brand:"levis",
+//     image : "https://lp2.hm.com/hmgoepprod?set=source[/d4/2d/d42d0a2c3687777f381eda59677ba056fe48a122.jpg],origin[dam],category[],type[LOOKBOOK],res[z],hmver[1]&call=url[file:/product/main]",
+//     price : "1099.00",
+//     strikeOff:"1499.00"
+
+// },
+// {
+//     name : "sweater",
+//     brand:"levis",
+//     image : "https://lp2.hm.com/hmgoepprod?set=source[/83/2b/832bb47bb34907c35ac09202a2d1c940950b91f5.jpg],origin[dam],category[],type[LOOKBOOK],res[z],hmver[1]&call=url[file:/product/main]",
+//     price : "2499.00",
+//     strikeOff:"3999.00"
+
+// },
+// ]
+      
+// var WomensData= [];
+
+// LadiesItems.map(function(item){
+ 
+//     var womensobj ={
+//         name:item.name,
+//         brand:item.brand,
+//         img:item.image,
+//         MRP:item.price,
+//         strike:item.strikeOff
+//     }
+//     WomensData.push(womensobj)
+// })
+
+//   DisplayItems()
+
+//  localStorage.setItem("WomensDB",JSON.stringify(WomensData))
+
+//  function DisplayItems(){
+//      WomensData.map(function(items){
+
+     
+//       let singleDiv=document.createElement("div")
+
+//         //  div.style.backgroundColor="rgb(221, 199, 221)"
+
+//       let img=document.createElement("img")
+//         img.setAttribute("src",items.img)
+//       let h3 = document.createElement("h3")
+//         h3.textContent=`Name: ${items.name}`
+//       let h4 = document.createElement("h4")
+//          h4.textContent=`Brand: ${items.brand}`
+
+//       let priceDiv = document.createElement("div")
+//       priceDiv.id = "priceDiv"
+//       let price = document.createElement("p")
+//       price.id = "priceRupees"
+//         price.textContent =`Rs.${items.MRP}`
+//       let strike = document.createElement("s")
+//       strike.textContent=` ${items.strike}`
+//       strike.id = "strike"
+
+//       priceDiv.append(price,strike)
+//       singleDiv.append(img,h3,h4,priceDiv)
+
+
+      //  function goToProductPage()
+      //   {
+      //       localStorage.setItem("clicked_item",JSON.stringify(items));
+      //       window.location.href = "single_prod.html"
+      //   };
+
+
+
+//         document.querySelector("#women").append(singleDiv)
+//      })
+      
+//  }
+
+function clickedProduct(items)
+{
+  const newProduct = JSON.parse(items);
+  window.location.href = `women/${newProduct._id}`
+  console.log(newProduct);
+}
+ function clickedItem(WomensData)
+ {
+   console.log(WomensData);
+ }
+
+  function signIn()
+{
+        window.location.href = "signIn.html"
+    console.log("signin")
+}
+
+function becomeMember()
+{
+    window.location.href = "signUp.html"
+    console.log("become a Member")
+}
+
+function logo()
+{
+  window.open("/index");
+}
+</script>

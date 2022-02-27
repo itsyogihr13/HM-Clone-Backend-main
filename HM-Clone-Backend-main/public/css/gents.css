@@ -1,0 +1,111 @@
+body {
+    background-color: #faf9f8;
+  }
+  #gentscont {
+    display: flex;
+    /* border: 1px solid black; */
+  }
+  #leftmen {
+    /* border: 1px solid red; */
+    height: 500px;
+    width: 250px;
+    margin-left: 40px;
+  }
+
+  #rightmen {
+    /* border: 1px solid red; */
+    /* height: 900px; */
+    width: 1000px;
+  }
+
+  #image {
+    display: flex;
+    /* border: 1px solid blue; */
+    height: 720px;
+    /* width: 750px; */
+  }
+  #image1 {
+    background-image: url("https://lp2.hm.com/hmgoepprod?source=url[https%3A%2F%2Ffiles.hm.com%2Fshare%2Fassets%2F2022%2F3273%2Fcarousel%2FEssential-no3-1.png]&scale=width[1300]&sink=format[webp],quality[75]");
+
+    width: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 500px 700px;
+  }
+  #image2 {
+    background-image: url("https://lp2.hm.com/hmgoepprod?source=url[https%3A%2F%2Ffiles.hm.com%2Fshare%2Fassets%2F2022%2F3273%2Fcarousel%2FEssential-no2-1.png]&scale=width[1300]&sink=format[webp],quality[75]");
+    width: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 500px 700px;
+  }
+  #row2 {
+    display: flex;
+    /* border: 1px solid blue; */
+    height: 720px;
+    /* width: 750px; */
+  }
+  #image3 {
+    background-image: url("https://lp2.hm.com/hmgoepprod?source=url[https%3A%2F%2Ffiles.hm.com%2Fshare%2Fassets%2F2022%2F3273%2Fcarousel%2FEssential-no6-1.png]&scale=width[1300]&sink=format[webp],quality[75]");
+
+    width: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 500px 700px;
+  }
+  #image4 {
+    background-image: url("https://www2.hm.com/content/dam/men_s05/january_2022/3125-blank-staples/3125-1x1-Blank-staples.jpg");
+    width: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 500px 700px;
+  }
+  #down {
+    text-align: center;
+  }
+  #font {
+    height: 350px;
+    width: 350px;
+
+    margin: 40px;
+    color: white;
+    font-weight: bold;
+    line-height: 0.5;
+  }
+  #btn {
+    background-color: white;
+    font-weight: 700;
+    width: 80px;
+    padding: 5px;
+    border: none;
+  }
+  #font2 {
+    /* border: 1px solid black; */
+    color: white;
+    text-align: center;
+    margin-top: 500px;
+    /* margin-left: 15px; */
+    font-weight: bold;
+    line-height: 0.5;
+  }
+  #rate {
+    border: 1px solid transparent;
+    background-color: #3b3b3c;
+    height: 100px;
+
+    margin-top: 400px;
+    margin-left: 150px;
+    width: 200px;
+
+    padding: 0px 20px;
+    color: white;
+    font-size: 20px;
+  }
+  #leftmen > p {
+    line-height: 0.7;
+    font-size: 15px;
+  }
+  #leftmen > p:hover {
+    color: #e50010;
+    text-decoration: underline;
+  }

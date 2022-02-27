@@ -1,0 +1,132 @@
+body {
+    background-color: #faf9f8;
+  }
+  #ladiescont {
+    display: flex;
+  }
+  #rightladies {
+    /* border: 1px solid blue; */
+    height: 800px;
+    width: 290px;
+    margin-left: 40px;
+  }
+  #rightladies > p {
+    line-height: 0.7;
+    font-size: 15px;
+  }
+  #rightladies > p:hover {
+    color: #e50010;
+    text-decoration: underline;
+  }
+  #leftladies {
+    /* border: 1px solid blue; */
+    width: 1100px;
+    height: 800px;
+  }
+  #image1 {
+    border: 1px solid transparent;
+
+    background-size: 900px 700px;
+    /* background-clip: content-box; */
+    margin-bottom: 35px;
+    height: 700px;
+    /* width: 900px; */
+    background-repeat: no-repeat;
+    background-image: url(https://www2.hm.com/content/dam/ladies_s05/january_2022/1075l/1075L-1x1.jpg);
+  }
+  #image2 {
+    /* border: 1px solid red; */
+    border: 1px solid transparent;
+
+    height: 700px;
+    background-size: 900px 700px;
+    margin-bottom: 35px;
+    background-repeat: no-repeat;
+    background-image: url("https://lp2.hm.com/hmgoepprod?source=url[https://www2.hm.com/content/dam/ladies_s05/december_2021/1095a/1095A-TCL5002-1x1.jpg]&scale=size[660]&sink=format[jpeg],quality[80]");
+  }
+  #image3 {
+    border: 1px solid transparent;
+    height: 700px;
+    margin-bottom: 35px;
+    background-size: 900px 700px;
+    background-repeat: no-repeat;
+    background-image: url("https://lp2.hm.com/hmgoepprod?set=width[960],quality[80],options[limit]&source=url[https://www2.hm.com/content/dam/ladies_s05/february_2022/5035a/5035A-CPM-TOP-GLOBAL-spring-styles.jpg]&scale=width[global.width],height[15000],options[global.options]&sink=format[jpg],quality[global.quality]");
+  }
+  #rate {
+    border: 1px solid black;
+    background-color: #3b3b3c;
+    height: 100px;
+    /* line-height: 0.5; */
+    margin-top: 250px;
+    margin-left: 600px;
+    width: 200px;
+
+    padding: 0px 20px;
+    color: white;
+    font-size: 20px;
+  }
+  #font {
+    background-color: transparent;
+    height: 200px;
+    line-height: 1;
+    margin-top: 150px;
+    margin-left: 160px;
+    width: 600px;
+    text-align: center;
+    color: white;
+  }
+  #btn {
+    background-color: white;
+    height: 30px;
+    width: 85px;
+    font-weight: bold;
+    border: none;
+  }
+  #btn2 {
+    background-color: #3b3b3c;
+    color: white;
+    height: 30px;
+    width: 95px;
+    /* font-weight: bold; */
+    font-weight: 550;
+    border: none;
+  }
+  h1 {
+    font-size: 45px;
+    font-weight: bold;
+  }
+  #font2 {
+    background-color: transparent;
+    height: 200px;
+    line-height: 1;
+    margin-top: 570px;
+    margin-left: 160px;
+    width: 600px;
+    text-align: center;
+    color: white;
+  }
+  #font3 {
+    background-color: transparent;
+    height: 200px;
+    line-height: 1;
+    margin-top: 250px;
+    margin-left: 160px;
+    width: 600px;
+    text-align: center;
+    color: white;
+  }
+  #rate3 {
+    background-color: #3b3b3c;
+    height: 100px;
+
+    margin-top: 150px;
+    margin-left: 30px;
+    width: 200px;
+
+    padding: 10px 20px;
+    color: white;
+    font-size: 20px;
+  }
+  #lastone {
+    text-align: center;
+  }

@@ -1,0 +1,53 @@
+body {
+    background-color: #faf9f8;
+  }
+  #salecont {
+    display: flex;
+  }
+  #leftsale {
+    /* border: 1px solid black; */
+    width: 250px;
+    margin-left: 40px;
+  }
+  #leftsale > p {
+    line-height: 0.7;
+    font-size: 15px;
+  }
+  #leftsale > p:hover {
+    color: #e50010;
+    text-decoration: underline;
+  }
+  #rightsale {
+    /* border: 1px solid black; */
+    width: 1000px;
+    height: auto;
+  }
+  #poster {
+    border: 1px solid red;
+    background-color: #e50010;
+    color: white;
+
+    text-align: center;
+    height: 800px;
+    width: 100%;
+  }
+  #text {
+    margin-top: 400px;
+    font-size: 55px;
+    font-weight: bold;
+  }
+  .btn {
+    background-color: #ffffff;
+    border: none;
+    margin-right: 8px;
+    width: 60px;
+    height: 25px;
+    font-weight: 700;
+  }
+  #buttonsbox {
+    /* border: 1px solid teal; */
+    margin-top: 250px;
+  }
+  #down {
+    text-align: center;
+  }
